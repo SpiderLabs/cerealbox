@@ -13,12 +13,16 @@ REQUIREMENTS
 
 This code should run on any Arduino board with 2k SRAM equipped with
 Colors Shield, or the all-in-one Colorduino board. Both Colorduino and
-Colors Shield are available from iTead Studio.
+Colors Shield are available from iTead Studio. Colorduino does not include
+a USB port, so novices (like me) should use the Colors Shield + Arduino Uno.
 
 http://iteadstudio.com/
 
 Test/Dev system is: Ardunio Uno, Colors Shield, 8x8 round LED matrix (iTead)
 
+The Colorduino library by Lincomatic is required and can be found here:
+
+http://blog.lincomatic.com/?p=148
 
 Also included is cb.pl, a sniffer that provides network session data
 to the Arduino over USB. Perl requirements for cb.pl include:
