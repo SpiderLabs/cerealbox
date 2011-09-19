@@ -66,6 +66,8 @@ void setup() {
   // whiteBalVal[1]=green
   // whiteBalVal[2]=blue
   unsigned char whiteBalVal[3] = {36,63,63}; // for LEDSEE 6x6cm round matrix
+  // Use this instead for iTead square LED matrix
+  // unsigned char whiteBalVal[3] = {36,63,40}; 
   Colorduino.SetWhiteBal(whiteBalVal);
   
   //Define colors used by meters

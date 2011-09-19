@@ -1,3 +1,5 @@
+#!/usr/bin/env perl
+
 =header
     cb.pl - cerealbox controller
 	Created by Steve Ocepek
@@ -16,8 +18,6 @@
     You should have received a copy of the GNU General Public License
     along with this program.  If not, see <http://www.gnu.org/licenses/>.
 =cut
-
-#!/usr/bin/env perl
 
 use strict; 
 use warnings;
